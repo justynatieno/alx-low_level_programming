@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * puts2 - prints every other character of a string followed by a new line
-  @str: the string
-  */
+ * @str: the string
+ */
 void puts2(char *str)
 {
 	int index = 0, len = 0;

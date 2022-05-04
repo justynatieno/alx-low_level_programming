@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strstr - locates a substring
- * @haystack: the string to search
- * @needle: the string to find
+ * @haystack: string to search
+ * @needle: string to find
  *
  * Return: char value
  */
@@ -29,3 +29,4 @@ char *_strstr(char *haystack, char *needle)
 	}
 	return ('\0');
 }
+

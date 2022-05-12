@@ -6,6 +6,7 @@
  * print_dog - prints function struct dog
  * @d: the struct dog to be rinted
  */
+void print_dog(struct dog *d)
 {
 	if (d == NULL)
 		return;

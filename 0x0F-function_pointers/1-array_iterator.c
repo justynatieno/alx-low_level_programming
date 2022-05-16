@@ -1,9 +1,9 @@
-#include "function_pointers_h"
+#include "function_pointers.h"
 /**
- * array_iterator - executes function givn as parameter
- * on each element of an array
- * @size: size of an array
- * @action: pointer to function to be used
+ * array_iterator - Executes a function given as a parameter on array elements
+ * @array: array
+ * @size: size of array
+ * @action: pointer to the function to be executed
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
@@ -15,4 +15,3 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 		action(*array);
 		array++;
 	}
-}

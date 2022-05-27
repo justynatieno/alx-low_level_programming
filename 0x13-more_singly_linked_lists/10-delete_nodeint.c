@@ -33,3 +33,4 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	copy->next = tmp->next;
 	free(tmp);
 	return (1);
+}

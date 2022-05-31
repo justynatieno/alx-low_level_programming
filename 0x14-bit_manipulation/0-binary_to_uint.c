@@ -42,3 +42,4 @@ int _strlen(const char *s)
 		c++;
 
 	return (c);
+}
